@@ -1,0 +1,16 @@
+
+  
+  img {
+    max-width: 100%;
+    cursor: pointer;
+  }
+ 
+   .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+.card:hover {
+    transform: scale(1.10); /* Aumenta ligeiramente o tamanho */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra */
+  }
+  
